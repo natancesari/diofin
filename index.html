@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diofin - विशेष ऑफर 50% छूट</title>
+    <style>
+        :root {
+            /* Cores baseadas na imagem fornecida da página "pag.diofin.jpg" */
+            --primary-color: #222353; /* Azul escuro do topo/rodapé */
+            --accent-color: #d61a21; /* Vermelho dos botões e destaques */
+            --text-color: #333333;
+            --bg-color: #ffffff;
+            --gray-bg: #f4f7fb;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--gray-bg);
+            color: var(--text-color);
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 700px;
+            margin: 0 auto;
+            background-color: var(--bg-color);
+            box-shadow: 0 0 20px rgba(0,0,0,0.05);
+            padding-bottom: 20px;
+        }
+        header {
+            background-color: var(--primary-color);
+            color: #ffffff;
+            text-align: center;
+            padding: 15px 20px;
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+        .content {
+            padding: 30px 20px;
+            text-align: center;
+        }
+        .discount-badge {
+            background-color: #ffcc00;
+            color: #000;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-weight: bold;
+            display: inline-block;
+            margin-bottom: 15px;
+            font-size: 1rem;
+        }
+        .headline {
+            color: var(--primary-color);
+            font-size: 2.2rem;
+            margin-bottom: 10px;
+            font-weight: 800;
+            line-height: 1.2;
+        }
+        .sub-headline {
+            font-size: 1.1rem;
+            color: #555;
+            margin-bottom: 25px;
+        }
+        .product-name {
+            color: var(--accent-color);
+        }
+        
+        /* Área para você colocar a imagem pag.diofin.jpg no VS Code */
+        .product-image-container {
+            margin: 20px 0;
+            border: 2px dashed #ccc;
+            padding: 50px 20px;
+            background-color: #fcfcfc;
+            border-radius: 8px;
+        }
+        .product-image-container span {
+            color: #888;
+            font-size: 14px;
+        }
+
+        .price-section {
+            background-color: #fff8f8;
+            border: 2px dashed var(--accent-color);
+            border-radius: 10px;
+            padding: 25px;
+            margin: 30px 0;
+        }
+        .old-price {
+            text-decoration: line-through;
+            color: #888;
+            font-size: 1.2rem;
+        }
+        .new-price {
+            color: var(--accent-color);
+            font-size: 2.8rem;
+            font-weight: 900;
+            margin: 5px 0;
+        }
+        .cod-badge {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #28a745;
+            color: white;
+            padding: 8px 18px;
+            border-radius: 30px;
+            font-weight: bold;
+            margin-top: 10px;
+            font-size: 1.1rem;
+        }
+        .cod-badge::before {
+            content: '✔';
+            margin-right: 8px;
+            font-size: 1.2rem;
+        }
+        .cta-button {
+            display: block;
+            width: 100%;
+            max-width: 450px;
+            margin: 20px auto 10px auto;
+            background-color: var(--accent-color);
+            color: #ffffff;
+            text-decoration: none;
+            padding: 20px 20px;
+            font-size: 1.6rem;
+            font-weight: 900;
+            border-radius: 50px;
+            text-transform: uppercase;
+            transition: all 0.3s ease;
+            box-shadow: 0 8px 20px rgba(214, 26, 33, 0.4);
+            animation: pulse 2s infinite;
+        }
+        .cta-button:hover {
+            background-color: #b5151c;
+            transform: scale(1.02);
+        }
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.03); }
+            100% { transform: scale(1); }
+        }
+        
+        .benefits {
+            text-align: left;
+            margin: 30px auto;
+            max-width: 400px;
+            font-size: 1.1rem;
+            background: #f9f9f9;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 5px solid var(--primary-color);
+        }
+        .benefits ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        .benefits li {
+            margin-bottom: 15px;
+            padding-left: 35px;
+            position: relative;
+        }
+        .benefits li:last-child {
+            margin-bottom: 0;
+        }
+        .benefits li::before {
+            content: '✅';
+            position: absolute;
+            left: 0;
+            top: 2px;
+            font-size: 1.1rem;
+        }
+        
+        /* FOOTER DE CONFORMIDADE GOOGLE ADS */
+        footer {
+            margin-top: 40px;
+            background-color: var(--primary-color);
+            color: #ffffff;
+            padding: 30px 20px;
+            text-align: center;
+            font-size: 0.8rem;
+        }
+        footer a {
+            color: #ffffff;
+            text-decoration: underline;
+            margin: 0 10px;
+            opacity: 0.8;
+        }
+        footer a:hover {
+            opacity: 1;
+        }
+        .disclaimer {
+            margin-bottom: 20px;
+            line-height: 1.5;
+            color: #ccc;
+            text-align: justify;
+        }
+        .urgency-text {
+            color: var(--accent-color);
+            font-weight: bold;
+            font-size: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Topo -->
+        <header>
+            ऑफर आज ही समाप्त हो रहा है - सीमित स्टॉक
+        </header>
+        
+        <div class="content">
+            <div class="discount-badge">50% की विशेष छूट</div>
+            
+            <h1 class="headline"><span class="product-name">Diofin</span> के साथ बेहतर स्वास्थ्य की ओर कदम बढ़ाएं</h1>
+            <p class="sub-headline">विशेषज्ञों द्वारा अनुशंसित और 100% प्राकृतिक।</p>
+            
+           <!-- IMAGEM DO PRODUTO -->
+<div style="margin: 20px 0; text-align: center;">
+    <img src="produto diofin.png" alt="Diofin" style="max-width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+</div>
+            
+            <div class="price-section">
+                <div class="old-price">नियमित मूल्य: ₹4980</div>
+                <div class="new-price">₹2490 INR</div>
+                <div class="cod-badge">कैश ऑन डिलीवरी (COD) उपलब्ध</div>
+            </div>
+            
+            <div class="benefits">
+                <ul>
+                    <li><strong>सुविधाजनक:</strong> घर पर प्राप्त करें और भुगतान करें।</li>
+                    <li><strong>सुरक्षित:</strong> 100% प्राकृतिक सामग्री से बना।</li>
+                    <li><strong>सीमित ऑफर:</strong> 50% की छूट केवल आज के लिए।</li>
+                </ul>
+            </div>
+            
+            <!-- BOTÃO COM SEU LINK DE AFILIADO/TRACKING -->
+            <a href="https://7erze.doctortraffox.com/l/?sub1={gclid}" class="cta-button">अभी ऑर्डर करें</a>
+            <p class="urgency-text">अपना ऑर्डर सुरक्षित करें। स्टॉक जल्द ही खत्म हो सकता है!</p>
+        </div>
+        
+        <!-- RODAPÉ GOOGLE ADS COMPLIANCE (MUITO IMPORTANTE) -->
+        <footer>
+            <div class="disclaimer">
+                <strong>अस्वीकरण (Disclaimer):</strong> यह साइट Google Inc. या किसी भी Google एजेंसी से संबद्ध नहीं है। यह उत्पाद किसी भी बीमारी का निदान, उपचार, इलाज या रोकथाम करने का इरादा नहीं रखता है। परिणाम व्यक्ति-दर-व्यक्ति भिन्न हो सकते हैं। इस वेबसाइट पर दी गई जानकारी केवल सामान्य ज्ञान और शैक्षिक उद्देश्यों के लिए है। कृपया किसी भी पूरक को शुरू करने से पहले अपने चिकित्सक से परामर्श लें।
+            </div>
+            <div>
+                <!-- O GOOGLE EXIGE QUE VOCÊ COLOQUE LINKS REAIS AQUI -->
+                <a href="#privacy">Privacy Policy</a> | 
+                <a href="#terms">Terms & Conditions</a> | 
+                <a href="#contact">Contact Us</a>
+            </div>
+            <div style="margin-top: 15px; color: #888;">
+                &copy; 2026 Diofin Supplement. All Rights Reserved.
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
